@@ -1,0 +1,13 @@
+name: mnist
+channels:
+- anaconda
+- conda-forge
+- defaults
+dependencies:
+- argparse
+- hydra-core
+- tensorflow
+- numpy
+- matplotlib
+- kaggle
+- zipfile

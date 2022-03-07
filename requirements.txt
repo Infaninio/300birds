@@ -1,0 +1,7 @@
+argparse
+hydra-core
+tensorflow
+numpy
+matplotlib
+kaggle
+zipfile

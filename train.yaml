@@ -1,0 +1,7 @@
+dataset_path: C:\Users\marti\source\repos\Machine Learning\300birds\dataset
+repo_version: 0.0.1
+
+# Configurations for the machine learning algorithm.
+model:
+ _target_: src.model.CNN
+ num_classes: 400
