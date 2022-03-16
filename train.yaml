@@ -2,6 +2,9 @@ dataset_path: C:\Users\marti\source\repos\Machine Learning\300birds\dataset
 repo_version: 0.0.1
 
 # Configurations for the machine learning algorithm.
+image_size: [224, 224]
+batch_size: 128
+
 model:
- _target_: src.model.CNN
+ _target_: src.model.ResNet34
  num_classes: 400
